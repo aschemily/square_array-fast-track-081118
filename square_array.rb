@@ -1,12 +1,12 @@
 def square_array(array)
   # your code here
-  returnarr = []
+ # returnarr = []
   
-  array.each do |num|
+  array.map do |num|
     returnarr << num*num
   end
   
-  return returnarr
+  #return returnarr
 end
 
 
