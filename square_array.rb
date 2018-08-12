@@ -5,6 +5,7 @@ def square_array(array)
   array.each do |num|
     returnarr << num*num
   end
+  
   return returnarr
 end
 
